@@ -50,7 +50,7 @@ export const TodoItem = (props) => {
                                 />                    
                             </div>
                         </form> : 
-                         <span className="col-3 ">
+                         <span className="col-3">
                             {props.todo.isChanged? `${props.todo.title} (changed)` : props.todo.title}
                          </span>
                     }
