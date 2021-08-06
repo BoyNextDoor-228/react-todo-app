@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "id": 1625855979707,
+      "title": "buy pizza",
+      "isDone": false,
+      "isInTrash": false,
+      "isChanged": true,
+      "addedOn": "09.07.2021, 21:39:39"
+    },
+    {
+      "id": 1625855982471,
+      "title": "feed cat",
+      "isDone": false,
+      "isInTrash": false,
+      "isChanged": false,
+      "addedOn": "09.07.2021, 21:39:42"
+    },
+    {
+      "id": 1625941349996,
+      "title": "make first react project",
+      "isDone": false,
+      "isInTrash": false,
+      "isChanged": false,
+      "addedOn": "10.07.2021, 21:22:29"
+    }
+  ]
+}

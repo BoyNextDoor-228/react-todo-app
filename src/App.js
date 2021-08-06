@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import   React                          from 'react'
+import { Switch, BrowserRouter, Route } from 'react-router-dom';
+import { Navbar }                       from './components/Navbar'
+import { Todos }                        from './components/Todos';
+import { Trashbin }                     from './components/Trashbin';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <div className="customContainer mw-100">
+        <Navbar></Navbar>
+        <Switch>
+          <Route path={'/'} exact component={Todos}/>
+          <Route path={'/trashbin'} exact component={Trashbin}/>
+        </Switch>
+     </div>
+    </BrowserRouter>
+  )
 }
 
 export default App;
