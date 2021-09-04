@@ -1,0 +1,1 @@
+Simple TODO application to improve skills in React development :3
